@@ -1,0 +1,38 @@
+# Node modules
+node_modules/
+
+# Build output
+dist/
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.production
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS-generated crap
+.DS_Store
+Thumbs.db
+
+# Editor stuff
+.vscode/
+.idea/
+
+# Temporary uploads (Cloudinary local temp files)
+uploads/
+tmp/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Optional: If using nodemon PID file
+.pids/
+
+# Optional: eslint cache
+.eslintcache
